@@ -1,0 +1,51 @@
+{
+  "item.frostpunkmod.cow_chip": "Cow Chip",
+  "item.frostpunkmod.steam_core": "Steam Core",
+  "item.frostpunkmod.steel_ingot": "Steel Ingot",
+  "item.frostpunkmod.rivet": "Rivet",
+  "item.frostpunkmod.ash": "Ash",
+  "item.frostpunkmod.half_coal": "Half Coal",
+  "item.frostpunkmod.emergency_ration": "Emergency Rations",
+  "item.frostpunkmod.dowsing_rod": "Dowsing Rod",
+  "item.frostpunkmod.meat_cleaver": "Meat Cleaver",
+  "item.frostpunkmod.super_steel": "Super Steel",
+
+  "item.frostpunkmod.cow_chip.tooltip": "1/4th as good as coal",
+  "item.frostpunkmod.steam_core.tooltip": "Pinnacle of human engineering",
+  "item.frostpunkmod.steel_ingot.tooltip": "Iron 2.0",
+  "item.frostpunkmod.rivet.tooltip": "Truly riveting",
+  "item.frostpunkmod.ash.tooltip": "Waste product of generator",
+  "item.frostpunkmod.half_coal.tooltip": "1/2 as good as coal",
+  "item.frostpunkmod.emergency_ration.tooltip": "Your new favorite food",
+  "item.frostpunkmod.super_steel.tooltip": "Steel 2.0",
+
+  "block.frostpunkmod.riveted_steel": "Riveted Steel",
+  "block.frostpunkmod.grated_steel": "Grated Steel",
+  "block.frostpunkmod.steel_block": "Steel Block",
+  "block.frostpunkmod.steel_generator": "Steel Generator",
+  "block.frostpunkmod.diamond_generator": "Diamond Generator",
+  "block.frostpunkmod.super_generator": "Super Generator",
+
+  "block.frostpunkmod.steel_button": "Steel Button",
+  "block.frostpunkmod.steel_pressure_plate": "Steel Pressure Plate",
+  "block.frostpunkmod.steel_fence": "Steel Fence",
+  "block.frostpunkmod.steel_fence_gate": "Steel Fence Gate",
+  "block.frostpunkmod.steel_wall": "Steel Wall",
+
+  "block.frostpunkmod.steel_stairs": "Steel Stairs",
+  "block.frostpunkmod.steel_slab": "Steel Slab",
+  "block.frostpunkmod.steel_door": "Steel Door",
+  "block.frostpunkmod.reinforced_steel_door": "Reinforced Steel Door",
+  "block.frostpunkmod.steel_trapdoor": "Steel Trapdoor",
+  "block.frostpunkmod.reinforced_steel_trapdoor": "Reinforced Steel Trapdoor",
+
+  "item.frostpunkmod.dowsing_rod.tooltip.shift": "Right Click to find valuables",
+  "item.frostpunkmod.dowsing_rod.tooltip": "Press §eSHIFT§r for more Information",
+
+  "item.frostpunkmod.meat_cleaver.tooltip.shift1": "Chop Chop",
+  "item.frostpunkmod.meat_cleaver.tooltip.shift2": "Right Click to take from yourself",
+  "item.frostpunkmod.meat_cleaver.tooltip.shift3": "Left Click to take from others",
+  "item.frostpunkmod.meat_cleaver.tooltip": "Press §eSHIFT§r for more Information",
+
+  "itemGroup.frostpunkmod.frostpunk": "Frostpunk Mod"
+}

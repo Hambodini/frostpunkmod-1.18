@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "frostpunkmod:block/steel_slab"
+    },
+    "type=double": {
+      "model": "frostpunkmod:block/steel_block"
+    },
+    "type=top": {
+      "model": "frostpunkmod:block/steel_slab_top"
+    }
+  }
+}

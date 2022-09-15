@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "frostpunkmod:block/steel_block",
+    "top": "frostpunkmod:block/steel_block",
+    "side": "frostpunkmod:block/steel_block"
+  }
+}

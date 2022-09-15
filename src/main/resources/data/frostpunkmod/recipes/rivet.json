@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ii"
+  ],
+  "key": {
+    "i": {
+      "item": "frostpunkmod:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "frostpunkmod:rivet",
+    "count": 1
+  }
+}

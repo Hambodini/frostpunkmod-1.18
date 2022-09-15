@@ -1,0 +1,90 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "up": "true"
+      },
+      "apply": {
+        "model": "frostpunkmod:block/steel_wall_post"
+      }
+    },
+    {
+      "when": {
+        "north": "low"
+      },
+      "apply": {
+        "model": "frostpunkmod:block/steel_wall_side",
+        "unlock": true
+      }
+    },
+    {
+      "when": {
+        "east": "low"
+      },
+      "apply": {
+        "model": "frostpunkmod:block/steel_wall_side",
+        "y": 90,
+        "unlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "low"
+      },
+      "apply": {
+        "model": "frostpunkmod:block/steel_wall_side",
+        "y": 180,
+        "unlock": true
+      }
+    },
+    {
+      "when": {
+        "west": "low"
+      },
+      "apply": {
+        "model": "frostpunkmod:block/steel_wall_side",
+        "y": 270,
+        "unlock": true
+      }
+    },
+    {
+      "when": {
+        "north": "tall"
+      },
+      "apply": {
+        "model": "frostpunkmod:block/steel_wall_side_tall",
+        "unlock": true
+      }
+    },
+    {
+      "when": {
+        "east": "tall"
+      },
+      "apply": {
+        "model": "frostpunkmod:block/steel_wall_side_tall",
+        "y": 90,
+        "unlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "tall"
+      },
+      "apply": {
+        "model": "frostpunkmod:block/steel_wall_side_tall",
+        "y": 180,
+        "unlock": true
+      }
+    },
+    {
+      "when": {
+        "west": "tall"
+      },
+      "apply": {
+        "model": "frostpunkmod:block/steel_wall_side_tall",
+        "y": 270,
+        "unlock": true
+      }
+    }
+  ]
+}

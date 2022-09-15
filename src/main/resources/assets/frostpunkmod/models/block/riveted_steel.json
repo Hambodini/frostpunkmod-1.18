@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "frostpunkmod:block/riveted_steel"
+  }
+}

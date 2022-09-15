@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "frostpunkmod:block/steel_block"
+  }
+}
