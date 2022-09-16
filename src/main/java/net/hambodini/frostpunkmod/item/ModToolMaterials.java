@@ -11,7 +11,8 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
 
-    STEEL(2, 820, 7.0F, 2.5F, 14, () -> Ingredient.ofItems(new ItemConvertible[]{ModItems.STEEL_INGOT}));
+    STEEL(2, 820, 7.0F, 2.5F, 14, () -> Ingredient.ofItems(new ItemConvertible[]{ModItems.STEEL_INGOT})),
+    STEEL_WEAK(2, 100, 7.0F, 2.5F, 14, () -> Ingredient.ofItems(new ItemConvertible[]{ModItems.STEEL_INGOT}));
     private final int miningLevel;
     private final int itemDurability;
     private final float miningSpeed;

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "frostpunkmod:item/man_meat_raw"
+  }
+}

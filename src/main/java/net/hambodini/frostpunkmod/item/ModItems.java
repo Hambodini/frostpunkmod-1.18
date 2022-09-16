@@ -17,7 +17,7 @@ import java.util.List;
 public class ModItems {
 
 
-    //normal items
+    //misc items
 
     public static final Item STEAM_CORE = registerItem("steam_core",
             new Item( new FabricItemSettings().group(ModItemGroup.FROSTPUNK)){
@@ -85,13 +85,61 @@ public class ModItems {
                 }
             });
 
+    public static final Item MONSTER_MEAT_RAW = registerItem("monster_meat_raw",
+            new Item( new FabricItemSettings().group(ModItemGroup.FROSTPUNK).food(ModFoodComponents.MONSTER_MEAT_RAW)){
+                @Override
+                public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(new TranslatableText("item.frostpunkmod.monster_meat_raw.tooltip"));
+                }
+            });
+
+    public static final Item MONSTER_MEAT_COOKED = registerItem("monster_meat_cooked",
+            new Item( new FabricItemSettings().group(ModItemGroup.FROSTPUNK).food(ModFoodComponents.MONSTER_MEAT_COOKED)){
+                @Override
+                public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(new TranslatableText("item.frostpunkmod.monster_meat_cooked.tooltip"));
+                }
+            });
+
+    public static final Item MAN_MEAT_RAW = registerItem("man_meat_raw",
+            new Item( new FabricItemSettings().group(ModItemGroup.FROSTPUNK).food(ModFoodComponents.MAN_MEAT_RAW)){
+                @Override
+                public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(new TranslatableText("item.frostpunkmod.man_meat_raw.tooltip"));
+                }
+            });
+
+    public static final Item MAN_MEAT_COOKED = registerItem("man_meat_cooked",
+            new Item( new FabricItemSettings().group(ModItemGroup.FROSTPUNK).food(ModFoodComponents.MAN_MEAT_COOKED)){
+                @Override
+                public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(new TranslatableText("item.frostpunkmod.man_meat_cooked.tooltip"));
+                }
+            });
+
+    public static final Item MYSTERY_MEAT_RAW = registerItem("mystery_meat_raw",
+            new Item( new FabricItemSettings().group(ModItemGroup.FROSTPUNK).food(ModFoodComponents.MYSTERY_MEAT_RAW)){
+                @Override
+                public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(new TranslatableText("item.frostpunkmod.mystery_meat_raw.tooltip"));
+                }
+            });
+
+    public static final Item MYSTERY_MEAT_COOKED = registerItem("mystery_meat_cooked",
+            new Item( new FabricItemSettings().group(ModItemGroup.FROSTPUNK).food(ModFoodComponents.MYSTERY_MEAT_COOKED)){
+                @Override
+                public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(new TranslatableText("item.frostpunkmod.mystery_meat_cooked.tooltip"));
+                }
+            });
+
     //swords
     public static final Item STEEL_SWORD = registerItem("steel_sword",
             new SwordItem(ModToolMaterials.STEEL,3,-2.4f,
                     new FabricItemSettings().group(ModItemGroup.FROSTPUNK)){
                 @Override
                 public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(new TranslatableText("item.frostpunkmod.emergency_ration.tooltip"));
+                    tooltip.add(new TranslatableText("item.frostpunkmod.steel_sword.tooltip"));
                 }
             });
 
@@ -101,7 +149,7 @@ public class ModItems {
                     new FabricItemSettings().group(ModItemGroup.FROSTPUNK)){
                 @Override
                 public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(new TranslatableText("item.frostpunkmod.emergency_ration.tooltip"));
+                    tooltip.add(new TranslatableText("item.frostpunkmod.steel_axe.tooltip"));
                 }
             });
 
@@ -111,7 +159,7 @@ public class ModItems {
                     new FabricItemSettings().group(ModItemGroup.FROSTPUNK)){
                 @Override
                 public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(new TranslatableText("item.frostpunkmod.emergency_ration.tooltip"));
+                    tooltip.add(new TranslatableText("item.frostpunkmod.steel_hoe.tooltip"));
                 }
             });
 
@@ -121,7 +169,7 @@ public class ModItems {
                     new FabricItemSettings().group(ModItemGroup.FROSTPUNK)){
                 @Override
                 public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(new TranslatableText("item.frostpunkmod.emergency_ration.tooltip"));
+                    tooltip.add(new TranslatableText("item.frostpunkmod.steel_pickaxe.tooltip"));
                 }
             });
 
@@ -131,14 +179,16 @@ public class ModItems {
                     new FabricItemSettings().group(ModItemGroup.FROSTPUNK)){
                 @Override
                 public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(new TranslatableText("item.frostpunkmod.emergency_ration.tooltip"));
+                    tooltip.add(new TranslatableText("item.frostpunkmod.steel_shovel.tooltip"));
                 }
             });
 
-    //custom items
+    //custom sword
     public static final Item MEAT_CLEAVER = registerItem("meat_cleaver",
-            new MeatCleaverItem( new FabricItemSettings().group(ModItemGroup.FROSTPUNK)));
+            new ModMeatSwordItem(ModToolMaterials.STEEL_WEAK,1,-2.4f,
+                    new FabricItemSettings().group(ModItemGroup.FROSTPUNK)));
 
+    //custom item
     public static final Item DOWSING_ROD = registerItem("dowsing_rod",
             new DowsingRodItem(new FabricItemSettings().group(ModItemGroup.FROSTPUNK).maxDamage(16)));
 

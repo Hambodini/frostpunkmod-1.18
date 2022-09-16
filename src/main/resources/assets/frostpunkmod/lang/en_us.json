@@ -10,6 +10,13 @@
   "item.frostpunkmod.meat_cleaver": "Meat Cleaver",
   "item.frostpunkmod.super_steel": "Super Steel",
 
+  "item.frostpunkmod.monster_meat_raw": "Monster Meat Raw",
+  "item.frostpunkmod.monster_meat_cooked": "Monster Meat Cooked",
+  "item.frostpunkmod.man_meat_raw": "Man Meat Raw",
+  "item.frostpunkmod.man_meat_cooked": "Man Meat Cooked",
+  "item.frostpunkmod.mystery_meat_raw": "Mystery Meat Raw",
+  "item.frostpunkmod.mystery_meat_cooked": "Mystery Meat Cooked",
+
   "item.frostpunkmod.cow_chip.tooltip": "1/4th as good as coal",
   "item.frostpunkmod.steam_core.tooltip": "Pinnacle of human engineering",
   "item.frostpunkmod.steel_ingot.tooltip": "Iron 2.0",
@@ -17,7 +24,17 @@
   "item.frostpunkmod.ash.tooltip": "Waste product of generator",
   "item.frostpunkmod.half_coal.tooltip": "1/2 as good as coal",
   "item.frostpunkmod.emergency_ration.tooltip": "Your new favorite food",
-  "item.frostpunkmod.super_steel.tooltip": "Steel 2.0",
+  "item.frostpunkmod.monster_meat_raw.tooltip": "Flesh of a beast",
+  "item.frostpunkmod.monster_meat_cooked.tooltip": "Grilled to perfection",
+  "item.frostpunkmod.man_meat_raw.tooltip": "Flesh of your fellow man",
+  "item.frostpunkmod.man_meat_cooked.tooltip": "Tastes like chicken",
+  "item.frostpunkmod.mystery_meat_raw.tooltip": "Flesh?",
+  "item.frostpunkmod.mystery_meat_cooked.tooltip": "Tastes mysterious",
+  "item.frostpunkmod.steel_axe.tooltip": "",
+  "item.frostpunkmod.steel_hoe.tooltip": "",
+  "item.frostpunkmod.steel_pickaxe.tooltip": "",
+  "item.frostpunkmod.steel_shovel.tooltip": "",
+  "item.frostpunkmod.steel_sword.tooltip": "",
 
   "block.frostpunkmod.riveted_steel": "Riveted Steel",
   "block.frostpunkmod.grated_steel": "Grated Steel",
@@ -39,7 +56,7 @@
   "block.frostpunkmod.steel_trapdoor": "Steel Trapdoor",
   "block.frostpunkmod.reinforced_steel_trapdoor": "Reinforced Steel Trapdoor",
 
-  "item.frostpunkmod.dowsing_rod.tooltip.shift": "Right Click to find valuables",
+  "item.frostpunkmod.dowsing_rod.tooltip.shift": "Right Click on to find coal",
   "item.frostpunkmod.dowsing_rod.tooltip": "Press §eSHIFT§r for more Information",
 
   "item.frostpunkmod.meat_cleaver.tooltip.shift1": "Chop Chop",

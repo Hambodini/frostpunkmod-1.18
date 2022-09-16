@@ -19,4 +19,6 @@ public class FrostpunkMod implements ModInitializer {
 
 		ModRegistries.registerModStuffs();
 	}
+
+
 }
