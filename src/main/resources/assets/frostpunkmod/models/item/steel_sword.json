@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "frostpunkmod:item/steel_sword"
+  }
+}

@@ -47,5 +47,11 @@
   "item.frostpunkmod.meat_cleaver.tooltip.shift3": "Left Click to take from others",
   "item.frostpunkmod.meat_cleaver.tooltip": "Press §eSHIFT§r for more Information",
 
+  "item.frostpunkmod.steel_sword": "Steel Sword",
+  "item.frostpunkmod.steel_axe": "Steel Axe",
+  "item.frostpunkmod.steel_hoe": "Steel Hoe",
+  "item.frostpunkmod.steel_pickaxe": "Steel Pickaxe",
+  "item.frostpunkmod.steel_shovel": "Steel Shovel",
+
   "itemGroup.frostpunkmod.frostpunk": "Frostpunk Mod"
 }

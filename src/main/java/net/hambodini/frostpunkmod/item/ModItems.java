@@ -2,13 +2,9 @@ package net.hambodini.frostpunkmod.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.hambodini.frostpunkmod.FrostpunkMod;
-import net.hambodini.frostpunkmod.item.custom.DowsingRodItem;
-import net.hambodini.frostpunkmod.item.custom.MeatCleaverItem;
+import net.hambodini.frostpunkmod.item.custom.*;
 import net.minecraft.client.item.TooltipContext;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
+import net.minecraft.item.*;
 import net.minecraft.text.Text;
 import net.minecraft.text.TranslatableText;
 import net.minecraft.util.Identifier;
@@ -83,6 +79,56 @@ public class ModItems {
     //foods
     public static final Item EMERGENCY_RATION = registerItem("emergency_ration",
             new Item( new FabricItemSettings().group(ModItemGroup.FROSTPUNK).food(ModFoodComponents.EMERGENCY_RATION)){
+                @Override
+                public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(new TranslatableText("item.frostpunkmod.emergency_ration.tooltip"));
+                }
+            });
+
+    //swords
+    public static final Item STEEL_SWORD = registerItem("steel_sword",
+            new SwordItem(ModToolMaterials.STEEL,3,-2.4f,
+                    new FabricItemSettings().group(ModItemGroup.FROSTPUNK)){
+                @Override
+                public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(new TranslatableText("item.frostpunkmod.emergency_ration.tooltip"));
+                }
+            });
+
+    //axe
+    public static final Item STEEL_AXE = registerItem("steel_axe",
+            new ModAxeItem(ModToolMaterials.STEEL,5,-3f,
+                    new FabricItemSettings().group(ModItemGroup.FROSTPUNK)){
+                @Override
+                public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(new TranslatableText("item.frostpunkmod.emergency_ration.tooltip"));
+                }
+            });
+
+    //hoe
+    public static final Item STEEL_HOE = registerItem("steel_hoe",
+            new ModHoeItem(ModToolMaterials.STEEL,-4,-2.4f,
+                    new FabricItemSettings().group(ModItemGroup.FROSTPUNK)){
+                @Override
+                public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(new TranslatableText("item.frostpunkmod.emergency_ration.tooltip"));
+                }
+            });
+
+    //pickaxe
+    public static final Item STEEL_PICKAXE = registerItem("steel_pickaxe",
+            new ModPickaxeItem(ModToolMaterials.STEEL,1,-2.8f,
+                    new FabricItemSettings().group(ModItemGroup.FROSTPUNK)){
+                @Override
+                public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(new TranslatableText("item.frostpunkmod.emergency_ration.tooltip"));
+                }
+            });
+
+    //shovel
+    public static final Item STEEL_SHOVEL = registerItem("steel_shovel",
+            new ShovelItem(ModToolMaterials.STEEL,1.5f,-3f,
+                    new FabricItemSettings().group(ModItemGroup.FROSTPUNK)){
                 @Override
                 public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
                     tooltip.add(new TranslatableText("item.frostpunkmod.emergency_ration.tooltip"));
