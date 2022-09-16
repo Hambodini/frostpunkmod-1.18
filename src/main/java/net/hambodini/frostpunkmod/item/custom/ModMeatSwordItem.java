@@ -47,14 +47,13 @@ public class ModMeatSwordItem extends SwordItem {
         target.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 200, 2), attacker);
         double d = Math.random();
 
-        //10% of the time you will get meat
-        if (d < .10) {
+        //20% of the time you will get meat
+        if (d < .20) {
             if(target instanceof HostileEntity) {
                 target.dropItem(ModItems.MONSTER_MEAT_RAW);
             } else if (target instanceof VillagerEntity) {
                 target.dropItem(ModItems.MAN_MEAT_RAW);
             } else if (target instanceof AnimalEntity) {
-                target.dropItem(ModItems.MYSTERY_MEAT_RAW);
             }
         }
 
