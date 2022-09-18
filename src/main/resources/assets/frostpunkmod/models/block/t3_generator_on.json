@@ -2,7 +2,7 @@
   "parent": "minecraft:block/orientable",
   "textures": {
     "top": "frostpunkmod:block/riveted_steel",
-    "front": "frostpunkmod:block/diamond_generator_front",
+    "front": "frostpunkmod:block/t3_generator_front_on",
     "side": "frostpunkmod:block/grated_steel"
   }
 }

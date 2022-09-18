@@ -35,13 +35,13 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.FROSTPUNK);
 
     //generators
-    public static final Block STEEL_GENERATOR = registerBlock("steel_generator",
+    public static final Block T1_GENERATOR = registerBlock("t1_generator",
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.FROSTPUNK);
 
-    public static final Block DIAMOND_GENERATOR = registerBlock("diamond_generator",
+    public static final Block T2_GENERATOR = registerBlock("t2_generator",
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.FROSTPUNK);
 
-    public static final Block SUPER_GENERATOR = registerBlock("super_generator",
+    public static final Block T3_GENERATOR = registerBlock("t3_generator",
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.FROSTPUNK);
 
     //buttons
