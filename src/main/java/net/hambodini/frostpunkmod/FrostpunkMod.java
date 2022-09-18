@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 import net.hambodini.frostpunkmod.block.ModBlocks;
 import net.hambodini.frostpunkmod.item.ModItems;
 import net.hambodini.frostpunkmod.util.ModRegistries;
+import net.hambodini.frostpunkmod.world.gen.ModWorldGen;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,6 +19,7 @@ public class FrostpunkMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		ModRegistries.registerModStuffs();
+		ModWorldGen.generateModWorldGen();
 	}
 
 
