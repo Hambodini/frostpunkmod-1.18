@@ -25,6 +25,9 @@ public class ModBlocks {
     public static final Block RIVETED_STEEL = registerBlock("riveted_steel",
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.FROSTPUNK);
 
+    public static final Block SULFUR_ORE = registerBlock("sulfur_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()), ModItemGroup.FROSTPUNK);
+
     public static final Block GRATED_STEEL = registerBlock("grated_steel",
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.FROSTPUNK);
 

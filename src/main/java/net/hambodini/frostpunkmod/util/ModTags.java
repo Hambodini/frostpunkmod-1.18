@@ -11,8 +11,6 @@ import net.minecraft.util.registry.Registry;
 
 public class ModTags {
     public static class Blocks {
-        public static final TagKey<Block> DOWSING_ROD_DETECTABLE_BLOCKS =
-                createTag("dowsing_rod_detectable_blocks");
 
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(Registry.BLOCK_KEY, new Identifier(FrostpunkMod.MOD_ID, name));
@@ -25,7 +23,7 @@ public class ModTags {
 
     public static class Items {
         public static final TagKey<Item> STEEL_INGOT = createCommonTag("Steel_ingots");
-
+        public static final TagKey<Item> SULFUR = createCommonTag("sulfur");
         private static TagKey<Item> createTag(String name) {
             return TagKey.of(Registry.ITEM_KEY, new Identifier(FrostpunkMod.MOD_ID, name));
         }

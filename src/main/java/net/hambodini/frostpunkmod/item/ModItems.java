@@ -28,6 +28,14 @@ public class ModItems {
                 }
             });
 
+    public static final Item SULFUR_CLUMP = registerItem("sulfur_clump",
+            new Item( new FabricItemSettings().group(ModItemGroup.FROSTPUNK)){
+                @Override
+                public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(new TranslatableText("item.frostpunkmod.sulfur_clump.tooltip"));
+                }
+            });
+
     public static final Item STEEL_INGOT = registerItem("steel_ingot",
             new Item( new FabricItemSettings().group(ModItemGroup.FROSTPUNK)){
                 @Override
