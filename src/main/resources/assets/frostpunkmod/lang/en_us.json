@@ -81,8 +81,13 @@
   "item.frostpunkmod.steel_hoe": "Steel Hoe",
   "item.frostpunkmod.steel_pickaxe": "Steel Pickaxe",
   "item.frostpunkmod.steel_shovel": "Steel Shovel",
-  "item.frostpunkmod.sulfur_clump": "Sulfur Clump",
-  "item.frostpunkmod.sulfur_clump.tooltip": "It smells",
+  "item.frostpunkmod.potassium": "Potassium",
+  "item.frostpunkmod.potassium.tooltip": "Banana of the cave",
+  "item.frostpunkmod.sulfur": "Sulfur",
+  "item.frostpunkmod.sulfur.tooltip": "It smells",
   "block.frostpunkmod.sulfur_ore": "Sulfur Ore",
+  "block.frostpunkmod.deepslate_sulfur_ore": "Deepslate Sulfur Ore",
+  "block.frostpunkmod.deepslate_potassium_ore": "Deepslate Potassium Ore",
+  "block.frostpunkmod.potassium_ore": "Potassium Ore",
   "itemGroup.frostpunkmod.frostpunk": "Frostpunk Mod"
 }

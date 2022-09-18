@@ -2,6 +2,24 @@
   "replace": false,
   "values": [
     "frostpunkmod:grated_steel",
-    "frostpunkmod:riveted_steel"
+    "frostpunkmod:riveted_steel",
+    "frostpunkmod:deepslate_sulfur_ore",
+    "frostpunkmod:sulfur_ore",
+    "frostpunkmod:potassium_ore",
+    "frostpunkmod:deepslate_potassium_ore",
+    "frostpunkmod:t1_generator",
+    "frostpunkmod:steel_block",
+    "frostpunkmod:t2_generator",
+    "frostpunkmod:t3_generator",
+    "frostpunkmod:steel_button",
+    "frostpunkmod:steel_pressure_plate",
+    "frostpunkmod:steel_fence",
+    "frostpunkmod:steel_fence_gate",
+    "frostpunkmod:steel_wall",
+    "frostpunkmod:steel_slab",
+    "frostpunkmod:steel_stairs",
+    "frostpunkmod:steel_door",
+    "frostpunkmod:reinforced_steel_door",
+    "frostpunkmod:reinforced_steel_trapdoor"
   ]
 }

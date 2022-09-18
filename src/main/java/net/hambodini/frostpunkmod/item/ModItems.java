@@ -28,11 +28,19 @@ public class ModItems {
                 }
             });
 
-    public static final Item SULFUR_CLUMP = registerItem("sulfur_clump",
+    public static final Item SULFUR = registerItem("sulfur",
             new Item( new FabricItemSettings().group(ModItemGroup.FROSTPUNK)){
                 @Override
                 public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-                    tooltip.add(new TranslatableText("item.frostpunkmod.sulfur_clump.tooltip"));
+                    tooltip.add(new TranslatableText("item.frostpunkmod.sulfur.tooltip"));
+                }
+            });
+
+    public static final Item POTASSIUM = registerItem("potassium",
+            new Item( new FabricItemSettings().group(ModItemGroup.FROSTPUNK)){
+                @Override
+                public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(new TranslatableText("item.frostpunkmod.potassium.tooltip"));
                 }
             });
 
