@@ -3,6 +3,7 @@ package net.hambodini.frostpunkmod.item;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.hambodini.frostpunkmod.FrostpunkMod;
 import net.hambodini.frostpunkmod.item.custom.*;
+import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
@@ -27,6 +28,9 @@ public class ModItems {
                     tooltip.add(new TranslatableText("item.frostpunkmod.steam_core.tooltip"));
                 }
             });
+
+    public static final Item MUSKET_SHOT = registerItem("musket_shot",
+            new ArrowItem( new FabricItemSettings().group(ModItemGroup.FROSTPUNK)));
 
     public static final Item SULFUR = registerItem("sulfur",
             new Item( new FabricItemSettings().group(ModItemGroup.FROSTPUNK)){
@@ -174,7 +178,24 @@ public class ModItems {
     public static final Item STEEL_SHOVEL = registerItem("steel_shovel",
             new ShovelItem(ModToolMaterials.STEEL,1.5f,-3f,
                     new FabricItemSettings().group(ModItemGroup.FROSTPUNK)));
-    
+    //guns
+    public static final Item MUSKET = registerItem("musket",
+            new MusketBowItem(new FabricItemSettings().group(ModItemGroup.FROSTPUNK).maxDamage(640)){
+                @Override
+                public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+                    if(!Screen.hasShiftDown()) {
+                        tooltip.add(new TranslatableText("item.frostpunkmod.musket.tooltip.shift"));
+                    } else {
+                        tooltip.add(new TranslatableText("item.frostpunkmod.musket.tooltip1"));
+                        tooltip.add(new TranslatableText("item.frostpunkmod.musket.tooltip2"));
+                    }
+                }
+            });
+
+    //bows
+    public static final Item STEEL_BOW = registerItem("steel_bow",
+            new BowItem(new FabricItemSettings().group(ModItemGroup.FROSTPUNK).maxDamage(640)){
+            });
     //armor
     public static final Item STEEL_HELMET = registerItem("steel_helmet",
             new ArmorItem(ModArmorMaterials.STEEL, EquipmentSlot.HEAD,

@@ -1,0 +1,6 @@
+{
+    "parent": "frostpunkmod:item/musket",
+    "textures": {
+        "layer0": "frostpunkmod:item/musket_pulling_2"
+    }
+}

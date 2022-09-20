@@ -89,5 +89,11 @@
   "block.frostpunkmod.deepslate_sulfur_ore": "Deepslate Sulfur Ore",
   "block.frostpunkmod.deepslate_potassium_ore": "Deepslate Potassium Ore",
   "block.frostpunkmod.potassium_ore": "Potassium Ore",
+  "item.frostpunkmod.musket": "Musket",
+  "item.frostpunkmod.musket.tooltip.shift": "Press §eSHIFT§r for more Information",
+  "item.frostpunkmod.musket.tooltip1": "hold right click to load gun",
+  "item.frostpunkmod.musket.tooltip2": "fire with right click",
+  "item.frostpunkmod.musket_shot": "Musket Shot",
+  "item.frostpunkmod.steel_bow": "Steel Bow",
   "itemGroup.frostpunkmod.frostpunk": "Frostpunk Mod"
 }
